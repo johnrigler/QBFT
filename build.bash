@@ -44,12 +44,9 @@ echo $ARTIFACTS
 
 mkdir -p Node-$NODE/data/keystore
 cd Node-$NODE/data
-for x in genesis.json static-nodes.json
-do
 cp ../../$ARTIFACTS/goQuorum/genesis.json .
 cp ../../$ARTIFACTS/goQuorum/static-nodes.json new-static-nodes.json 
 ln -s ../../static-nodes.json .
-done
 
 for x in address nodekey.pub
 do
