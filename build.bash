@@ -65,6 +65,7 @@ cd ../..
 
  cp ../$ARTIFACTS/validator0/nodekey data/geth/nodekey
 
+ cd ../start-node.bash
  cd ..
 
  echo
@@ -80,5 +81,9 @@ cd ../..
 
  echo 
  echo "You might also need to find an opened port"
+
+ echo "Finally, you can use the start-node.bash command in your"
+ echo "data directory to start, but you may need to make some"
+ echo "adjustments"
 
  rm $$
