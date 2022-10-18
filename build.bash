@@ -65,7 +65,7 @@ cd ../..
 
  cp ../$ARTIFACTS/validator0/nodekey data/geth/nodekey
 
- cd ../start-node.bash
+ cp ../start-node.bash .
  cd ..
 
  echo
