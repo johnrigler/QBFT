@@ -24,4 +24,10 @@ It is possible to run this on Linux or on a Mac. It is also possible in Windows 
 
 You can build out all five nodes yourself, but it would be better to join an existing Quorum public network. Therefore, I will provide an existing network which I am calling Zork ][. If you configure a node to join this network, then we will allow you to connect in.
 
+The trick here is to get a copy of a valid static-nodes.json file. We add your node to it. 
+
+You can send a pull request if you want to join, or hit me up on LinkedIn:
+
+https://linkedin.com/in/jrigler
+
 Cheers.
